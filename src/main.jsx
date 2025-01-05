@@ -6,7 +6,8 @@ import './index.css'
 // import Animation from './Animation.jsx'
 // import BufferGeometry from './BufferGeometry.jsx'
 // import BufferGeometry2 from './BufferGeometry2.jsx'
-import SnowEffect from './SnowEffect.jsx'
+// import SnowEffect from './SnowEffect.jsx'
+import Textures from './Textures.jsx'
 
 
 createRoot(document.getElementById('root')).render(
@@ -15,6 +16,7 @@ createRoot(document.getElementById('root')).render(
     {/* <Animation /> */}
     {/* <BufferGeometry /> */}
     {/* <BufferGeometry2 /> */}
-    <SnowEffect />
+    {/* <SnowEffect /> */}
+    <Textures />
   </StrictMode>,
 )
